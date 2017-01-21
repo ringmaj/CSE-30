@@ -1,0 +1,8 @@
+(Assessment) Logic Check
+
+1. You would receive this error: bash: ./main: No such file or directory since you no longer have an executable named main. You can solve this problem by running the same command but with your new name since the content is still the same. Instead, run ./cselab and it will produce the same output.
+
+2. When you compile using g++ <source> only, your program will create a default executable titled a.out. Here you will have the exact same output but will need to use the command ./a.out to run the program.
+
+
+3. You will have to point towards std by using the line std::cout or std::cin on every line which uses it for the it to compile correctly.
